@@ -1,0 +1,25 @@
+{
+  "name": "pack-try",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2017": "^6.24.1",
+    "json-loader": "^0.5.7",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "watch": "npm run build -- --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ramda": "^0.24.1"
+  }
+}
