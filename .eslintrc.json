@@ -1,0 +1,58 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true,
+        "jest/globals": true
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "jest"
+    ],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "jest/no-disabled-tests": "warn",
+        "jest/no-identical-title": "error",
+        "jest/valid-expect": "error",
+        "react/prop-types": "warn",
+        "react/jsx-space-before-closing": "off",
+        "react/jsx-tag-spacing": "warn",
+        "flowtype/space-before-generic-bracket": [
+            2,
+            "always"
+        ],
+        "flowtype/space-before-type-colon": [
+            2,
+            "always"
+        ],
+        "no-console": "warn",
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "react/jsx-indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ]
+    }
+}

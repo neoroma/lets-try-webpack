@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`one returns number on 1`] = `[Function]`;
+
+exports[`two returns number two 1`] = `[Function]`;
